@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+  font-family: 'New Tegomin', serif;
+  font-weight: bold;
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+  
+}
+.card {
+  width: 500px;
+  padding: 20px;
+  background-color: rgba(240, 248, 255, 0.658);
+  display: inline;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px rgb(48, 46, 46);
+  
+
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  height: 50px; 
+  
+  
+}
+.buttons, button, a{
+  color:white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.author{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+.quote {
+  height: 300px;
+  display: inline;  
+  justify-content: center; 
+  position: relative;  
+}
